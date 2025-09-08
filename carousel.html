@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#11071F]">
+    <h1 class="text-[#7562E0] text-[36px] m-8">Recommendations</h1>
+    <div
+      class="carousel h-[25vh] border-2 border-[#7562E0] text-[#FFFFFF] relative m-8 p-4"
+    >
+      <button
+        class="next-btn absolute text-4xl top-[50%] translate-y-[-50%] right-4"
+        onclick="next()"
+      >
+        &#x21d2;
+      </button>
+      <button
+        class="prev-btn absolute text-4xl top-[50%] translate-y-[-50%]"
+        onclick="prev()"
+      >
+        &#x21d0;
+      </button>
+      <ul class="carousel-track">
+        <li class="current-slide">
+          <p class="text-ellipsis">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas
+            provident dolore, voluptates facilis recusandae harum voluptatem
+            iste dolorum fugit! Quas nostrum molestiae quisquam beatae sunt
+            nulla alias aliquam quae!
+          </p>
+          <span class="absolute bottom-[15%] right-0 p-4">-Lorem ipsum</span>
+        </li>
+        <li class="hidden">
+          <p class="text-ellipsis">
+            @Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas
+            provident dolore, voluptates facilis recusandae harum voluptatem
+            iste dolorum fugit! Quas nostrum molestiae quisquam beatae sunt
+            nulla alias aliquam quae!
+          </p>
+        </li>
+        <li class="hidden">
+          <p class="text-ellipsis">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas
+            provident dolore, voluptates facilis recusandae harum voluptatem
+            iste dolorum fugit! Quas nostrum molestiae quisquam beatae sunt
+            nulla alias aliquam quae!
+          </p>
+        </li>
+        <li class="hidden">
+          <p class="text-ellipsis">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas
+            provident dolore, voluptates facilis recusandae harum voluptatem
+            iste dolorum fugit! Quas nostrum molestiae quisquam beatae sunt
+            nulla alias aliquam quae!
+          </p>
+        </li>
+        <li class="hidden">
+          <p class="text-ellipsis">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas
+            provident dolore, voluptates facilis recusandae harum voluptatem
+            iste dolorum fugit! Quas nostrum molestiae quisquam beatae sunt
+            nulla alias aliquam quae!
+          </p>
+        </li>
+      </ul>
+      <div class="absolute bottom-0 left-[50%] translate-x-[-50%]">
+        <button
+          class="current-dot h-[11px] w-[11px] bg-[#11071F] rounded-[50%] border-2 border-[#7562E0] bg-[#7562E0] mx-4"
+        ></button>
+        <button
+          class="h-[11px] w-[11px] bg-[#11071F] rounded-[50%] border-2 border-[#7562E0] mx-4"
+        ></button>
+        <button
+          class="h-[11px] w-[11px] bg-[#11071F] rounded-[50%] border-2 border-[#7562E0] mx-4"
+        ></button>
+        <button
+          class="h-[11px] w-[11px] bg-[#11071F] rounded-[50%] border-2 border-[#7562E0] mx-4"
+        ></button>
+        <button
+          class="h-[11px] w-[11px] bg-[#11071F] rounded-[50%] border-2 border-[#7562E0] mx-4"
+        ></button>
+      </div>
+    </div>
+    <script src="carousel.js"></script>
+  </body>
+</html>
